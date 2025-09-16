@@ -1,0 +1,13 @@
+---
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo ">>> Build stage"
+      - echo "Packaging web app files"
+  post_build:
+    commands:
+      - echo ">>> Build complete ... copying file to S3"
+artifacts:
+  files:
+    - '/**/*'
