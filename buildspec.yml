@@ -10,4 +10,4 @@ phases:
       - echo ">>> Build complete ... copying file to S3"
 artifacts:
   files:
-    - '/**/*'
+    - '**/*'
